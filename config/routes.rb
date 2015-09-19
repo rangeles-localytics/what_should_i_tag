@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :contacts
+  resources :events
 
   # set home page to 'home' under pages controller
   root 'pages#home'
